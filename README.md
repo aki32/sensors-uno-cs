@@ -15,6 +15,17 @@ It would be appliciated if someone can add more sensors.
 ![image](https://user-images.githubusercontent.com/49830756/166903989-e8460261-b9d0-4f33-8898-f232aba94793.png)
 
 
+
+
+# Japanese 日本語
+Uno Platform からセンサー類へのアクセスチェックをチェックするためのアプリです。
+
+センサー類へのアクセスのテンプレートとしてもお使いください。
+
+6つで気力がなくなったので，センサーの種類を増やす方向でプルリクしてくださる方がいらっしゃったらとても嬉しいです。
+
+
+
 # Reference
 * uno platform official support for Windows.Devices.Sensors
 
