@@ -1,0 +1,79 @@
+﻿<Page
+    x:Class="UNO_AccessSensors.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UNO_AccessSensors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    xmlns:android="http://uno.ui/android"
+    xmlns:ios="http://uno.ui/ios"
+    xmlns:wasm="http://uno.ui/wasm"
+    xmlns:win="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    mc:Ignorable="d ios android wasm"
+    
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Foreground="{ThemeResource ApplicationForegroundThemeBrush}"
+    FontSize="16"
+    >
+
+    <Page.Resources >
+        <android:Style x:Key = "PageStyle" TargetType = "Grid" >
+            <Setter Property = "toolkit:VisibleBoundsPadding.PaddingMask" Value = "All" />
+        </android:Style >
+        <ios:Style x:Key = "PageStyle" TargetType = "Grid" >
+            <Setter Property = "toolkit:VisibleBoundsPadding.PaddingMask" Value = "All" />
+        </ios:Style >
+        <win:Style x:Key = "PageStyle" TargetType = "Grid" />
+        <wasm:Style x:Key = "PageStyle" TargetType = "Grid" />
+    </Page.Resources >
+
+    <Grid Style = "{StaticResource PageStyle}" >
+        <ScrollViewer>
+            <StackPanel Margin="20" Spacing="20">
+
+                <TextBlock 
+                    Style="{ThemeResource HeaderTextBlockStyle}"
+                    Text="Sensors Test"
+                    />
+
+                <Button 
+                    x:Name="Button_FetchData"
+                    Tapped="Button_FetchData_Tapped"
+                    Content=""
+                    />
+
+                <StackPanel>
+                    <TextBlock Text="Accelerometer: "/>
+                    <TextBlock x:Name="TextBlock_Acc" Margin="50,0,0,0"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock Text="Gyrometer: "/>
+                    <TextBlock x:Name="TextBlock_Gyro" Margin="50,0,0,0"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock Text="Magnetometer: "/>
+                    <TextBlock x:Name="TextBlock_Mag" Margin="50,0,0,0"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock Text="Compass: "/>
+                    <TextBlock x:Name="TextBlock_Com" Margin="50,0,0,0"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock Text="3D Compass: "/>
+                    <TextBlock x:Name="TextBlock_Ori" Margin="50,0,0,0"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock Text="Geolocator: "/>
+                    <TextBlock x:Name="TextBlock_Geo" Margin="50,0,0,0"/>
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
