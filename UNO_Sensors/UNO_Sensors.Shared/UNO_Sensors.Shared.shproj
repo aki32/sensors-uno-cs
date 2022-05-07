@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{22FA6FEF-7AC3-4D9C-AD21-ABF736AC4BC1}</ProjectGuid>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.props" />
+  <PropertyGroup />
+  <Import Project="UNO_Sensors.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.CSharp.targets" />
+  <ItemGroup>
+    <_Globbed_Compile Remove="Classes\ISensorController.cs" />
+    <_Globbed_Compile Remove="Classes\SensorControllers\AccelerometerController.cs" />
+    <_Globbed_Compile Remove="Classes\SensorControllers\CompassController.cs" />
+    <_Globbed_Compile Remove="Classes\SensorControllers\GeolocatorController.cs" />
+    <_Globbed_Compile Remove="Classes\SensorControllers\GyrometerController.cs" />
+    <_Globbed_Compile Remove="Classes\SensorControllers\MagnetometerController.cs" />
+    <_Globbed_Compile Remove="Classes\SensorControllers\OrientationSensorController.cs" />
+    <_Globbed_Compile Remove="Pages\MainPage.xaml.cs" />
+    <_Globbed_Compile Remove="Pages\MainPageMethods.cs" />
+    <_Globbed_Compile Remove="Pages\MainPageProperties.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <_Globbled_Page Remove="Pages\MainPage.xaml" />
+  </ItemGroup>
+</Project>
