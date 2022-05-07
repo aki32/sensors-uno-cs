@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNO_Sensors.iOS", "UNO_Sens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNO_Sensors.UWP", "UNO_Sensors\UNO_Sensors.UWP\UNO_Sensors.UWP.csproj", "{F4084239-BD2B-4844-BDA8-03C463AAC46C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNO_Sensors.Wasm", "UNO_Sensors\UNO_Sensors.Wasm\UNO_Sensors.Wasm.csproj", "{91B4AC98-71FE-49B1-88E5-ECCD3750423E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UNO_Sensors.Wasm", "UNO_Sensors\UNO_Sensors.Wasm\UNO_Sensors.Wasm.csproj", "{91B4AC98-71FE-49B1-88E5-ECCD3750423E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNO_Sensors.macOS", "UNO_Sensors\UNO_Sensors.macOS\UNO_Sensors.macOS.csproj", "{558F1195-ED95-4B77-83AB-1812A011BFA0}"
 EndProject
