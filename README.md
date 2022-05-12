@@ -1,6 +1,6 @@
-# sensors-uno-csharp
+# Abstract
 
-`sensors-uno-csharp` is for accessing sensors in uno platform.
+C# solution for accessing sensors in uno platform.
 
 These sensors are included for now.
 * `Accelerometer`
@@ -10,6 +10,10 @@ These sensors are included for now.
 * `OrientationSensor`
 * `Geolocator`
 
+
+
+
+# Notice
 
 Any commitment to add sensors and enhance this repo would be appliciated!
 
@@ -27,7 +31,9 @@ Uno Platform から各プラットフォームのセンサー類へアクセス�
 
 
 
+
 # Reference
 * Uno Platform official support for Windows.Devices.Sensors
 
 https://platform.uno/docs/articles/features/windows-devices-sensors.html
+
